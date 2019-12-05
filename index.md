@@ -107,13 +107,26 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   {% include workshop_calendar.html %}
 </p>
 {% endif %}
+
+<!--
 <p id="cost">
   <strong>Cost:</strong>
-  $40 for academic attendees / $80 for other attendees
+  $50 for academic attendees / $100 for other attendees
 </p>
-
+-->
 <center><form><button name="button" style="background-color: D71920; padding: 15px 32px" formaction="https://marketplace.unl.edu/default/hcc-python-data-analysis-1901.html">Register to Attend</button></form></center>
 <p><br></p>
+
+{% comment %}
+  PARKING
+  
+{% endcomment %}
+
+<p id="parking">
+	<strong>Parking:</strong><br>
+	
+			 Metered parking is available along R Street and along 16th Street, and at the 17th and R parking garage. Additional parking information can be found on the <a href="http://parking.unl.edu/">Parking and Transit Services website</a>.
+
 {% comment %}
   SPECIAL REQUIREMENTS
 
@@ -166,9 +179,17 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   <strong>Conference Wi-Fi Information:</strong>
 </p>
 <ul>
-  <li>Conference Username: PythonWorkshop</li>
-  <li>Conference Password: HCCPython2018</li>
+	<li><b>eduroam</b> - Attendees from universities that support 
+eduroam can connect using their institution credentials. Note: This may 
+require additional setup before being functional. Please check with your 
+institution for specific details. NU attendees can setup eduroam by visiting
+<a href="https://cloud.securew2.com/public/25806/NU-Connect/">the setup website 
+here</a>.</li>
+	<li><b>nu-guest</b> - Guest attendees can register for a 14 day
+guest account by visiting <a href="https://its.nebraska.edu/wireless/nu-guest">
+the NU-Guest setup page here</a>.</li>
 </ul>
+
 
 {% comment %}
   CONTACT EMAIL ADDRESS
