@@ -108,13 +108,11 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 </p>
 {% endif %}
 
-<!--
 <p id="cost">
   <strong>Cost:</strong>
   $50 for academic attendees / $100 for other attendees
 </p>
-<center><form><button name="button" style="background-color: D71920; padding: 15px 32px" formaction="https://marketplace.unl.edu/default/hcc-python-data-analysis-1901.html">Register to Attend</button></form></center>
--->
+<center><form><button name="button" style="background-color: D71920; padding: 15px 32px" formaction="https://marketplace.unl.edu/default/hcc-python-data-analysis-2020.html">Register to Attend</button></form></center>
 <p><br></p>
 
 {% comment %}
